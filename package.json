@@ -1,0 +1,16 @@
+{
+    "name": "rd-impressoes",
+    "version": "1.0.0",
+    "description": "Website institucional para RD Impressões",
+    "main": "script.js",
+    "scripts": {
+        "start": "serve .",
+        "build": "rm -rf dist && mkdir dist && cp index.html style.css script.js *.jpg *.png dist/ 2>/dev/null || cp index.html style.css script.js dist/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "serve": "^14.2.4"
+    }
+}
